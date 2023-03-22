@@ -1,9 +1,9 @@
 .formacao {
   background: #141414;
-  color: white;
+  color: #fff;
 }
 
-.formacao-container{
+.formacao-container {
   max-width: 1200px;
   padding: 120px 20px;
   margin: 0 auto;
@@ -16,7 +16,7 @@
   color: #000;
 }
 
-.formacao-texto{
+.formacao-texto {
   font-size: 1.5rem;
   line-height: 1.33;
   max-width: 40ch;
@@ -25,87 +25,57 @@
 }
 
 .formacao-texto strong {
-  color: #fff;
+  color: #ffffff;
 }
 
-.faculdade {
-  background: #000;
-  border-radius: 4px;
-  margin-top: 40px;
-  padding: 20px;
-  display: grid;
-  grid-template-columns: 2fr;
-  margin-bottom: 30px;
-}
-
-.faculdade h3{
-  color: #fff;
-  font-size: 1.4rem;
-  line-height: 0.5;
-  padding:  20px 0;
-}
-
-.faculdade-tipo {
-  font-size: 0.80rem;
-  line-height: 1.1;
-  font-weight: bold;
-}
-
-.faculdade-instituicao {
-  font-size: 1.2rem;
-  line-height: 1.1;
-}
-
-.faculdade-data {
-  font-size: 1rem;
-  line-height: 1.1;
-  margin-top: 10px;
-}
-
-.cursos-intensivos {
+.cursos-lista {
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
 }
 
-.cursos-intensivos li{
+.cursos {
   flex: 1;
-  padding: 20px;
   background: #000;
+  padding: 20px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
 }
 
-.certificado-texto {
+.cursos-tipo {
   font-size: .875rem;
   text-transform: uppercase;
   color: #a3a3a3;
-  margin: 0px;
+  margin-bottom: 10px;
 }
 
-.curso-tipo {
+.cursos-titulo {
   flex: 1;
   font-size: 1.125rem;
   line-height: 1.4;
+  margin-bottom: 20px;
   position: relative;
-  color: white;
 }
 
-.curso-tipo::before {
+.cursos-titulo::before {
   content: '';
   display: block;
   width: 4px;
   height: 20px;
   background: linear-gradient(180deg, #22F5C2 0%, #00DD9B 100%);
   position: absolute;
-  top: 5px;
+  top: 4px;
   left: -24px;
 }
 
-.instituicao {
+.cursos-instituicao {
   font-size: 1.125rem;
-  color:  #a3a3a3;
+  color: #a3a3a3;
 }
 
+.cursos-hora {
+  font-size: 1.2rem;
+  color: #a3a3a3;
+}
