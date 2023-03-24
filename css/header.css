@@ -21,6 +21,21 @@
   color: #141414;
   text-decoration: none;
   display: block;
+  position: relative;
+}
+
+.header-menu a:after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  background-color: #00DD9B;
+  position: absolute;
+  transition: 0.3s;
+}
+
+.header-menu a:hover::after {
+  width: 70%;
 }
 
 @media (max-width: 850px) {
